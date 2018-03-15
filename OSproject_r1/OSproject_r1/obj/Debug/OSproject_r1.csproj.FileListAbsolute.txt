@@ -1,0 +1,10 @@
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\bin\Debug\OSproject_r1.exe.config
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\bin\Debug\OSproject_r1.exe
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\bin\Debug\OSproject_r1.pdb
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.csprojResolveAssemblyReference.cache
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.Form1.resources
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.Properties.Resources.resources
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.csproj.GenerateResource.Cache
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.csproj.CoreCompileInputs.cache
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.exe
+C:\Users\Carl Ivan\source\repos\OSproject_r1\OSproject_r1\obj\Debug\OSproject_r1.pdb

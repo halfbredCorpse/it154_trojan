@@ -1,0 +1,7 @@
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\bin\Debug\Send.exe.config
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\bin\Debug\Send.exe
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\bin\Debug\Send.pdb
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\obj\Debug\Send.csproj.CoreCompileInputs.cache
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\obj\Debug\Send.exe
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\obj\Debug\Send.pdb
+C:\Users\Carl Ivan\source\repos\OSproject_r1\Send\obj\Debug\Send.csprojResolveAssemblyReference.cache

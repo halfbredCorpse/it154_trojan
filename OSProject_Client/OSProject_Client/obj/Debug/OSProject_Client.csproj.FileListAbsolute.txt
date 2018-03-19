@@ -5,3 +5,10 @@ C:\Users\Carl Ivan\source\repos\OSProject_Client\OSProject_Client\obj\Debug\OSPr
 C:\Users\Carl Ivan\source\repos\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.csproj.CoreCompileInputs.cache
 C:\Users\Carl Ivan\source\repos\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.exe
 C:\Users\Carl Ivan\source\repos\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.pdb
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\bin\Debug\OSProject_Client.exe.config
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\bin\Debug\OSProject_Client.exe
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\bin\Debug\OSProject_Client.pdb
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.csprojResolveAssemblyReference.cache
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.csproj.CoreCompileInputs.cache
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.exe
+C:\Users\Carl Ivan\Documents\it154_trojan\OSProject_Client\OSProject_Client\obj\Debug\OSProject_Client.pdb

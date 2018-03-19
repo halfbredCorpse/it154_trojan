@@ -54,9 +54,9 @@ namespace OSProject_Client
                             BeginListen(3);
                             break;
                         }
-                    default:
+                    case "\n":
                         {
-                            execute = false;
+                            execute = true;
                             break;
                         }
                 }

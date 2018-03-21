@@ -5,3 +5,10 @@ C:\Users\Carl Ivan\source\repos\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.c
 C:\Users\Carl Ivan\source\repos\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\Carl Ivan\source\repos\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 C:\Users\Carl Ivan\source\repos\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Carl Ivan\Documents\it154_trojan\OSproject_r1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

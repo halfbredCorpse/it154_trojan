@@ -24,7 +24,7 @@ namespace Send
 
             Console.WriteLine();
             
-            switch (userCall)
+            switch (userCall.ToLower())
             {
                 case "-s":
                     {

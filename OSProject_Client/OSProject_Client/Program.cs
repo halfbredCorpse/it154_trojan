@@ -25,14 +25,13 @@ namespace OSProject_Client
                 Console.WriteLine("\t\t\t\t\t[-k] Take key logger data from the remote computer");
                 Console.WriteLine("\t\t\t\t\t[-m] Take a picture from the remote host's camera");
                 Console.WriteLine("\t\t\t\t\t[-c] launch backdoor access console");
-                Console.WriteLine("\t\t\t\t\t[any key] Exit");
                 Console.WriteLine("------------------------------------------------------------------------------------------------------------------------");
                 Console.Write("Trojan Client >> ");
 
                 userCall = Console.ReadLine();
                 string c_userCall = userCall.Trim();
 
-                switch (c_userCall)
+                switch (c_userCall.ToLower())
                 {
                     case "-s":
                         {
